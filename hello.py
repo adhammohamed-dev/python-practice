@@ -1,0 +1,6 @@
+name=input("whats your name?  ")
+print("hello,",name)
+age=input("whats your age?  ")
+print(age,'oh!you are too young')
+food=input('whats your favorite food?   ' )
+print("ok your",name,"who is",age,"years old","loves",food,"hahahaha")
