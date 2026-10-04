@@ -1,6 +1,11 @@
 name=input("whats your name?  ")
 print("hello,",name)
-age=input("whats your age?  ")
-print(age,'oh!you are too young')
+age=int(input("whats your age?  "))
 food=input('whats your favorite food?   ' )
-print("ok your",name,"who is",age,"years old","loves",food,"hahahaha")
+if age<18:
+   print("you are too young")
+elif age>30:
+   print("your quite old")
+else:
+    print("perfect age")
+
